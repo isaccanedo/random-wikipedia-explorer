@@ -1,4 +1,4 @@
-# Wiki Random Page Fetcher
+# Wiki Buscador de Páginas Aleatórias
 
 Um script Python simples que busca páginas aleatórias da Wikipédia e permite que o usuário selecione uma para abrir em seu navegador padrão.
 
@@ -21,7 +21,7 @@ Permite ao usuário:
   - `requests`
   - `webbrowser`
 
-## Installation
+## Instalação
 
 1. Clone este repositório ou baixe o arquivo de script diretamente;
 2. Certifique-se de que o Python esteja instalado no seu sistema;
@@ -32,21 +32,21 @@ Permite ao usuário:
 
 ## Uso
 
-Run the script in your terminal:
+Execute o script no seu terminal:
 
 ```bash
 python wiki_random.py
 ```
 
-Follow the on-screen instructions:
+Siga as instruções na tela:
 
-- Enter the index of the page you want to open.
-- Type `r` to fetch a new set of random pages.
-- Type `n` to exit the program.
+- Insira o índice da página que você deseja abrir;
+- Digite `r` para buscar um novo conjunto de páginas aleatórias;
+- Digite `n` para sair do programa.
 
-## Example Output
+## Exemplo de saída
 
-```plaintext
+```
 0: Python (programming language)
 1: Artificial intelligence
 2: Neural networks
@@ -57,6 +57,7 @@ Follow the on-screen instructions:
 7: Open source
 8: Cloud computing
 9: Quantum computing
+10: AI
 
 Digite o índice da página para abrir, 'r' para tentar novamente ou 'n' para sair:
 ```
